@@ -44,3 +44,14 @@ export type ParamsVarious = {
   ag_alerta: boolean;
   cod_prest_bilog: string;
 };
+
+export type WhatsAppTemplateTurns = {
+  id_template_turns:number;
+  src:string;
+  value:string;
+};
+export type WhatsAppTemplateBirthday = {
+  id_template_birthday:number;
+  src:string;
+  value:string;
+}
